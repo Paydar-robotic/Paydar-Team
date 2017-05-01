@@ -9,7 +9,7 @@ Bot ID : @DCafeBazarBot
 Dev ID : @NOBLEST
 ─═ঊঈঊঈ═─╯
 */
-define('API_KEY','توکن شما');
+define('335722725:AAEk91W8wTM_nQIeTrMdOL_A6bA7t3PK-mc');
 //-----------------------------------------------------------------------------------------
 //فانکشن MrPHPBot :
 function MrPHPBot($method,$datas=[]){
