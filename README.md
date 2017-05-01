@@ -1,13 +1,13 @@
 
-*DCafeBazsarBot  V 1.0*
+*App Store   V 1.0*
 
 
 
-***Programmer*** : _MohammadHosseinHeidari_
+***Programmer*** : _PaydarTeam_
 
 
-***Telegram ID*** : [NobLest](http://telegram.me/NobLest)
+***Telegram ID*** : [Omid Paydar](http://telegram.me/omid_paydar)
 
 
-***channel :*** [PowerFulTeam](https://telegram.me/TeleBlasterTeam)
+***channel :*** [PaydarTeam](https://telegram.me/PaydarTeam)
 
