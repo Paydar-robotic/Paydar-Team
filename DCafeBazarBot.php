@@ -9,7 +9,7 @@ Bot ID : @DCafeBazarBot
 Dev ID : @NOBLEST
 ─═ঊঈঊঈ═─╯
 */
-define('335722725:AAEk91W8wTM_nQIeTrMdOL_A6bA7t3PK-mc');
+define('API_KEY','335722725:AAEk91W8wTM_nQIeTrMdOL_A6bA7t3PK-mc');
 //-----------------------------------------------------------------------------------------
 //فانکشن MrPHPBot :
 function MrPHPBot($method,$datas=[]){
@@ -39,7 +39,7 @@ $last_name = $message->from->last_name;
 $username = $message->from->username;
 $textmassage = $message->text;
 $step= file_get_contents("data/$from_id/file.txt");
-$Dev = 193930120;
+$Dev = 104657260;
 $txtt = file_get_contents('data/users.txt');
 $forward_from_chat = $update->message->forward_from_chat;
 $from_chat_id = $forward_from_chat->id;
@@ -612,7 +612,7 @@ save("data/$from_id/file.txt","none");
  save("data/$from_id/file.txt","none");
 	MrPHPBot('sendmessage',[
 	'chat_id'=>$chat_id,
-	'text'=>"ربات صفحه تلگرامی :\n@PageTelegramBot\nربات حرف ناشناس به من :\n@HarfNashenasBemanBot\nربات مدیریت حرفه ای کانال و گروه :\n@DenyRoBot\nربات فروشگاه سورس :\n@SorceShopBot\nربات درباره تیم :\n@MrPHPINFOBot\nربات تفریحی اقای پی اچ پی :\n@MrPHPBot\nتمام ربات ها با زبان برنامه نویسی پی اچ پی نوشته شده اند.\nبرنامه نویس : امید پایدار",
+	'text'=>"ربات صفحه تلگرامی :\n@t\nربات حرف ناشناس به من :\n@t\nربات مدیریت حرفه ای کانال و گروه :\n\nربات فروشگاه سورس :\n@\nربات درباره تیم :\n@t\nربات تفریحی اقای پی اچ پی :\n@\nتمام ربات ها با زبان برنامه نویسی پی اچ پی نوشته شده اند.\nبرنامه نویس : امید پایدار",
   'parse_mode'=>'MarkDown',
 	]);
 	}
