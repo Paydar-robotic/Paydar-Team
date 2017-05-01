@@ -250,7 +250,7 @@ MrPHPBot('ForwardMessage',[
 if($textmassage=="/start"){
 	MrPHPBot('sendmessage',[
 	'chat_id'=>$chat_id,
-	'text'=>"سلام $firstname\nبه ربات دانلود از کافه بازار خوش اومدی\nتو میتونی با این ربات برنامه های کافه بازار رو  دانلود کنی برای اینکار کافیه برروی گزینه جست و جو کلیک کنی ونام برنامه مورد نظر خودت رو بفرستی\nتوجه : این ربات نمیتواند برنامه های پولی رو دانلود کند\n@DCafeBazarBot",
+	'text'=>"سلام $firstname\nبه ربات دانلود از کافه بازار خوش اومدی\nتو میتونی با این ربات برنامه های کافه بازار رو  دانلود کنی برای اینکار کافیه برروی گزینه جست و جو کلیک کنی ونام برنامه مورد نظر خودت رو بفرستی\nتوجه : این ربات نمیتواند برنامه های پولی رو دانلود کند\n@AppStore_robot",
   'parse_mode'=>'MarkDown',
   'reply_markup'=>json_encode([
 	'resize_keyboard'=>true,
@@ -401,7 +401,7 @@ save("data/$from_id/file.txt","none");
 	MrPHPBot('editMessagetext',[
 	'chat_id'=>$chatid,
   'message_id'=>$messageid,
-	'text'=>"لینک برنامه در کافه بازار :\nhttp://cafebazaar.ir/app/$p1in1/?l=fa\n➖➖➖\nتعداد دانلود :\n $appinstal1\n➖➖➖\nدسته :\n$appc1\n➖➖➖\nسایز :\n$apps1\n➖➖➖\nورژن :\n$appv1\n➖➖➖\nتوضیحاتی درباره برنامه :\n$appd1\n\n@DCafeBazarBot",
+	'text'=>"لینک برنامه در کافه بازار :\nhttp://cafebazaar.ir/app/$p1in1/?l=fa\n➖➖➖\nتعداد دانلود :\n $appinstal1\n➖➖➖\nدسته :\n$appc1\n➖➖➖\nسایز :\n$apps1\n➖➖➖\nورژن :\n$appv1\n➖➖➖\nتوضیحاتی درباره برنامه :\n$appd1\n\n@AppStore_robot",
   'parse_mode'=>'MarkDown',
 	'reply_markup'=>json_encode([
 	'resize_keyboard'=>true,
@@ -419,7 +419,7 @@ save("data/$from_id/file.txt","none");
 	MrPHPBot('editMessagetext',[
 	'chat_id'=>$chatid,
   'message_id'=>$messageid,
-	'text'=>"لینک برنامه در کافه بازار :\nhttp://cafebazaar.ir/app/$p1in2/?l=fa\n➖➖➖\nتعداد دانلود :\n $appinstal2\n➖➖➖\nدسته :\n$appc2\n➖➖➖\nسایز :\n$apps2\n➖➖➖\nورژن :\n$appv2\n➖➖➖\nتوضیحاتی درباره برنامه :\n$appd2\n\n@DCafeBazarBot",
+	'text'=>"لینک برنامه در کافه بازار :\nhttp://cafebazaar.ir/app/$p1in2/?l=fa\n➖➖➖\nتعداد دانلود :\n $appinstal2\n➖➖➖\nدسته :\n$appc2\n➖➖➖\nسایز :\n$apps2\n➖➖➖\nورژن :\n$appv2\n➖➖➖\nتوضیحاتی درباره برنامه :\n$appd2\n\n@AppStore_robot",
   'parse_mode'=>'MarkDown',
 	'reply_markup'=>json_encode([
 	'resize_keyboard'=>true,
@@ -437,7 +437,7 @@ save("data/$from_id/file.txt","none");
 	MrPHPBot('editMessagetext',[
 	'chat_id'=>$chatid,
   'message_id'=>$messageid,
-	'text'=>"لینک برنامه در کافه بازار :\nhttp://cafebazaar.ir/app/$p1in3/?l=fa\n➖➖➖\nتعداد دانلود :\n $appinstal3\n➖➖➖\nدسته :\n$appc3\n➖➖➖\nسایز :\n$apps3\n➖➖➖\nورژن :\n$appv3\n➖➖➖\nتوضیحاتی درباره برنامه :\n$appd3\n\n@DCafeBazarBot",
+	'text'=>"لینک برنامه در کافه بازار :\nhttp://cafebazaar.ir/app/$p1in3/?l=fa\n➖➖➖\nتعداد دانلود :\n $appinstal3\n➖➖➖\nدسته :\n$appc3\n➖➖➖\nسایز :\n$apps3\n➖➖➖\nورژن :\n$appv3\n➖➖➖\nتوضیحاتی درباره برنامه :\n$appd3\n\n@AppStore_robot",
   'parse_mode'=>'MarkDown',
 	'reply_markup'=>json_encode([
 	'resize_keyboard'=>true,
@@ -455,7 +455,7 @@ save("data/$from_id/file.txt","none");
 	MrPHPBot('editMessagetext',[
 	'chat_id'=>$chatid,
   'message_id'=>$messageid,
-	'text'=>"لینک برنامه در کافه بازار :\nhttp://cafebazaar.ir/app/$p1in4/?l=fa\n➖➖➖\nتعداد دانلود :\n $appinstal4\n➖➖➖\nدسته :\n$appc4\n➖➖➖\nسایز :\n$apps4\n➖➖➖\nورژن :\n$appv4\n➖➖➖\nتوضیحاتی درباره برنامه :\n$appd4\n\n@DCafeBazarBot",
+	'text'=>"لینک برنامه در کافه بازار :\nhttp://cafebazaar.ir/app/$p1in4/?l=fa\n➖➖➖\nتعداد دانلود :\n $appinstal4\n➖➖➖\nدسته :\n$appc4\n➖➖➖\nسایز :\n$apps4\n➖➖➖\nورژن :\n$appv4\n➖➖➖\nتوضیحاتی درباره برنامه :\n$appd4\n\n@AppStore_robot",
   'parse_mode'=>'MarkDown',
 	'reply_markup'=>json_encode([
 	'resize_keyboard'=>true,
@@ -473,7 +473,7 @@ save("data/$from_id/file.txt","none");
 	MrPHPBot('editMessagetext',[
 	'chat_id'=>$chatid,
   'message_id'=>$messageid,
-	'text'=>"لینک برنامه در کافه بازار :\nhttp://cafebazaar.ir/app/$p1in5/?l=fa\n➖➖➖\nتعداد دانلود :\n $appinstal5\n➖➖➖\nدسته :\n$appc5\n➖➖➖\nسایز :\n$apps5\n➖➖➖\nورژن :\n$appv5\n➖➖➖\nتوضیحاتی درباره برنامه :\n$appd5\n\n@DCafeBazarBot",
+	'text'=>"لینک برنامه در کافه بازار :\nhttp://cafebazaar.ir/app/$p1in5/?l=fa\n➖➖➖\nتعداد دانلود :\n $appinstal5\n➖➖➖\nدسته :\n$appc5\n➖➖➖\nسایز :\n$apps5\n➖➖➖\nورژن :\n$appv5\n➖➖➖\nتوضیحاتی درباره برنامه :\n$appd5\n\n@AppStore_robot",
   'parse_mode'=>'MarkDown',
 	'reply_markup'=>json_encode([
 	'resize_keyboard'=>true,
@@ -491,7 +491,7 @@ save("data/$from_id/file.txt","none");
 	MrPHPBot('editMessagetext',[
 	'chat_id'=>$chatid,
   'message_id'=>$messageid,
-	'text'=>"لینک برنامه در کافه بازار :\nhttp://cafebazaar.ir/app/$p1in6/?l=fa\n➖➖➖\nتعداد دانلود :\n $appinstal6\n➖➖➖\nدسته :\n$appc6\n➖➖➖\nسایز :\n$apps6\n➖➖➖\nورژن :\n$appv6\n➖➖➖\nتوضیحاتی درباره برنامه :\n$appd6\n\n@DCafeBazarBot",
+	'text'=>"لینک برنامه در کافه بازار :\nhttp://cafebazaar.ir/app/$p1in6/?l=fa\n➖➖➖\nتعداد دانلود :\n $appinstal6\n➖➖➖\nدسته :\n$appc6\n➖➖➖\nسایز :\n$apps6\n➖➖➖\nورژن :\n$appv6\n➖➖➖\nتوضیحاتی درباره برنامه :\n$appd6\n\n@AppStore_robot",
   'parse_mode'=>'MarkDown',
 	'reply_markup'=>json_encode([
 	'resize_keyboard'=>true,
@@ -509,7 +509,7 @@ save("data/$from_id/file.txt","none");
 	MrPHPBot('editMessagetext',[
 	'chat_id'=>$chatid,
   'message_id'=>$messageid,
-	'text'=>"لینک برنامه در کافه بازار :\nhttp://cafebazaar.ir/app/$p1in7/?l=fa\n➖➖➖\nتعداد دانلود :\n $appinstal7\n➖➖➖\nدسته :\n$appc7\n➖➖➖\nسایز :\n$apps7\n➖➖➖\nورژن :\n$appv7\n➖➖➖\nتوضیحاتی درباره برنامه :\n$appd7\n\n@DCafeBazarBot",
+	'text'=>"لینک برنامه در کافه بازار :\nhttp://cafebazaar.ir/app/$p1in7/?l=fa\n➖➖➖\nتعداد دانلود :\n $appinstal7\n➖➖➖\nدسته :\n$appc7\n➖➖➖\nسایز :\n$apps7\n➖➖➖\nورژن :\n$appv7\n➖➖➖\nتوضیحاتی درباره برنامه :\n$appd7\n\n@AppStore_robot",
   'parse_mode'=>'MarkDown',
 	'reply_markup'=>json_encode([
 	'resize_keyboard'=>true,
@@ -528,7 +528,7 @@ save("data/$from_id/file.txt","none");
 	MrPHPBot('editMessagetext',[
 	'chat_id'=>$chatid,
   'message_id'=>$messageid,
-	'text'=>"لینک برنامه در کافه بازار :\nhttp://cafebazaar.ir/app/$p1in8/?l=fa\n➖➖➖\nتعداد دانلود :\n $appinstal8\n➖➖➖\nدسته :\n$appc8\n➖➖➖\nسایز :\n$apps8\n➖➖➖\nورژن :\n$appv8\n➖➖➖\nتوضیحاتی درباره برنامه :\n$appd8\n\n@DCafeBazarBot",
+	'text'=>"لینک برنامه در کافه بازار :\nhttp://cafebazaar.ir/app/$p1in8/?l=fa\n➖➖➖\nتعداد دانلود :\n $appinstal8\n➖➖➖\nدسته :\n$appc8\n➖➖➖\nسایز :\n$apps8\n➖➖➖\nورژن :\n$appv8\n➖➖➖\nتوضیحاتی درباره برنامه :\n$appd8\n\n@AppStore_robot",
   'parse_mode'=>'MarkDown',
 	'reply_markup'=>json_encode([
 	'resize_keyboard'=>true,
@@ -546,7 +546,7 @@ save("data/$from_id/file.txt","none");
 	MrPHPBot('editMessagetext',[
 	'chat_id'=>$chatid,
   'message_id'=>$messageid,
-	'text'=>"لینک برنامه در کافه بازار :\nhttp://cafebazaar.ir/app/$p1in9/?l=fa\n➖➖➖\nتعداد دانلود :\n $appinstal9\n➖➖➖\nدسته :\n$appc9\n➖➖➖\nسایز :\n$apps9\n➖➖➖\nورژن :\n$appv9\n➖➖➖\nتوضیحاتی درباره برنامه :\n$appd9\n\n@DCafeBazarBot",
+	'text'=>"لینک برنامه در کافه بازار :\nhttp://cafebazaar.ir/app/$p1in9/?l=fa\n➖➖➖\nتعداد دانلود :\n $appinstal9\n➖➖➖\nدسته :\n$appc9\n➖➖➖\nسایز :\n$apps9\n➖➖➖\nورژن :\n$appv9\n➖➖➖\nتوضیحاتی درباره برنامه :\n$appd9\n\n@AppStore_robot",
   'parse_mode'=>'MarkDown',
 	'reply_markup'=>json_encode([
 	'resize_keyboard'=>true,
@@ -564,7 +564,7 @@ save("data/$from_id/file.txt","none");
 	MrPHPBot('editMessagetext',[
 	'chat_id'=>$chatid,
   'message_id'=>$messageid,
-	'text'=>"لینک برنامه در کافه بازار :\nhttp://cafebazaar.ir/app/$p1in10/?l=fa\n➖➖➖\nتعداد دانلود :\n $appinstal10\n➖➖➖\nدسته :\n$appc10\n➖➖➖\nسایز :\n$apps10\n➖➖➖\nورژن :\n$appv10\n➖➖➖\nتوضیحاتی درباره برنامه :\n$appd10\n\n@DCafeBazarBot",
+	'text'=>"لینک برنامه در کافه بازار :\nhttp://cafebazaar.ir/app/$p1in10/?l=fa\n➖➖➖\nتعداد دانلود :\n $appinstal10\n➖➖➖\nدسته :\n$appc10\n➖➖➖\nسایز :\n$apps10\n➖➖➖\nورژن :\n$appv10\n➖➖➖\nتوضیحاتی درباره برنامه :\n$appd10\n\n@AppStore_robot",
   'parse_mode'=>'MarkDown',
 	'reply_markup'=>json_encode([
 	'resize_keyboard'=>true,
@@ -604,7 +604,7 @@ save("data/$from_id/file.txt","none");
  save("data/$from_id/file.txt","none");
 	MrPHPBot('sendmessage',[
 	'chat_id'=>$chat_id,
-	'text'=>"توضیحاتی درباره ربات :این ربات با وب سرویس تیم برنامه نویسی کرول ساخته شده است و میتواند اخرین ورژن برنامه هایی که شما میخواهید را برایتان بفرستد.\nنکته : برنامه های پولی را نمیتوان دانلود کرد\nبرنامه نویس : محمدحسین حیدری\nزبان برنامه نویسی : *php*\nتعداد لاین : *500*\n@PowerFulTeam",
+	'text'=>"توضیحاتی درباره ربات :این ربات با وب سرویس تیم برنامه نویسی پایدار ساخته شده است و میتواند اخرین ورژن برنامه هایی که شما میخواهید را برایتان بفرستد.\nنکته : برنامه های پولی را نمیتوان دانلود کرد\nبرنامه نویس : امید پایدار \nزبان برنامه نویسی : *php*\nتعداد لاین : *500*\n@PaydarTeam",
   'parse_mode'=>'MarkDown',
 	]);
 	}
@@ -612,7 +612,7 @@ save("data/$from_id/file.txt","none");
  save("data/$from_id/file.txt","none");
 	MrPHPBot('sendmessage',[
 	'chat_id'=>$chat_id,
-	'text'=>"ربات صفحه تلگرامی :\n@PageTelegramBot\nربات حرف ناشناس به من :\n@HarfNashenasBemanBot\nربات مدیریت حرفه ای کانال و گروه :\n@DenyRoBot\nربات فروشگاه سورس :\n@SorceShopBot\nربات درباره تیم :\n@MrPHPINFOBot\nربات تفریحی اقای پی اچ پی :\n@MrPHPBot\nتمام ربات ها با زبان برنامه نویسی پی اچ پی نوشته شده اند.\nبرنامه نویس : محمدحسین حیدری",
+	'text'=>"ربات صفحه تلگرامی :\n@PageTelegramBot\nربات حرف ناشناس به من :\n@HarfNashenasBemanBot\nربات مدیریت حرفه ای کانال و گروه :\n@DenyRoBot\nربات فروشگاه سورس :\n@SorceShopBot\nربات درباره تیم :\n@MrPHPINFOBot\nربات تفریحی اقای پی اچ پی :\n@MrPHPBot\nتمام ربات ها با زبان برنامه نویسی پی اچ پی نوشته شده اند.\nبرنامه نویس : امید پایدار",
   'parse_mode'=>'MarkDown',
 	]);
 	}
